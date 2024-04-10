@@ -1,0 +1,161 @@
+.flow > * + * {
+  margin-top: 1rem;
+}
+
+body {
+  text-align: center;
+}
+
+.AccordionDetails {
+  color: #ffffff;
+  background-color: #25282b;
+}
+
+.page-container {
+  container-type: inline-size;
+}
+
+.introsection {
+  color: #25282b;
+  display: grid;
+  max-width: 800px;
+  margin: auto;
+  gap: 2rem;
+  padding: 2rem 0;
+  place-items: center;
+}
+section.contactsection a {
+  color: #25282b;
+  background-color: #ffffff;
+}
+
+/* If the container is larger than 700px */
+@container (min-width: 500px) {
+  .introsection {
+    padding: 2rem;
+    grid-template-columns: minmax(20vh, 20vh) 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+.chips {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.Chip .MuiChip-label {
+  color: #ffffff;
+}
+
+.Chip {
+  background-color: #25282b;
+}
+
+.Accordion {
+  text-align: left;
+  display: grid;
+  /* remove horrible bottom line - extra gross when printed */
+  box-shadow: none !important;
+}
+
+.Accordion a {
+  text-decoration: underline;
+  color: white;
+}
+.certificateimage {
+  width: 50%;
+}
+
+.Card {
+  height: 150px;
+  width: auto;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+table {
+  margin: 0 auto;
+  padding-left: 0 auto;
+  padding-right: 0 auto;
+  font-size: 20px;
+  text-align: left;
+  max-width: 700px;
+  width: 100%;
+  border: 5px solid #fdc435;
+}
+tr {
+  height: 150px;
+}
+td {
+  width: 80px;
+}
+
+.page-content {
+  padding-top: 20px;
+  background-color: #fdc435;
+}
+
+.certificationlink {
+  text-decoration: none;
+  color: #25282b;
+  text-align: center;
+}
+
+.homelink {
+  text-decoration: underline;
+}
+
+div.AccordionSummary {
+  justify-content: space-between;
+  display: grid;
+  grid-auto-flow: column;
+  place-items: center;
+  padding: 1rem;
+  /* stop the accordion from expanding when closed */
+  min-height: unset;
+}
+
+div.AccordionSummary[aria-expanded] {
+  background-color: #fdc435;
+  color: black;
+}
+
+div.AccordionSummary[aria-expanded]:focus-visible {
+  background-color: #e0ae2e; /* set to  whatever you want */
+}
+
+div.AccordionSummary * {
+  margin: 0;
+  padding: 0;
+}
+
+/* when opened, the MUI accordion component increases the height of the header... and it's absolutely gross */
+/* this should really be done within the MUI theme + overrides process... but this is easier */
+div.Mui-expanded[aria-expanded="true"] {
+  min-height: unset;
+}
+
+div.MuiAccordionSummary-content,
+div.MuiAccordionSummary-content.Mui-expanded {
+  margin: 0;
+}
+
+/* remove the spacing between open accordion items */
+div.Accordion.Mui-expanded {
+  margin: 0;
+}
+
+/* stop the dividing line between the accordions becoming transparent when open */
+div.Accordion.Mui-expanded:before {
+  opacity: 1;
+}
+
+/* https://github.com/WICG/focus-visible/blob/HEAD/explainer.md */
+:focus {
+  outline: 0;
+}
+
+:focus-visible {
+  outline: 2px solid blue;
+}

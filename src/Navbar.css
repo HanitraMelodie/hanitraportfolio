@@ -1,0 +1,50 @@
+ul {
+  padding: 0;
+  text-align: center;
+}
+nav {
+  background: #fdc435;
+  padding: 0.5px;
+}
+li {
+  display: inline-block;
+  background: #fdc435;
+  transition: all 2000ms ease-in-out;
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+}
+
+li:hover {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  border: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: underline;
+  border: none;
+  border-style: solid;
+}
+#menuicon {
+  width: 30px;
+  position: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    background-color: white;
+  }
+  li {
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px;
+  }
+}

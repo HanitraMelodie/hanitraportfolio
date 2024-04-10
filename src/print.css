@@ -1,0 +1,39 @@
+@media print {
+    nav {
+      display: none;
+    }
+    
+    /* stop content from wrapping over pages */
+    p,
+    .chips {
+      break-inside: avoid;
+    }
+    
+    .introsection,
+    .AccordionSummary,
+    .AccordionDetails,
+    .Chip .MuiChip-label {
+      color: #000000 !important;
+    }
+
+    /* force the accordions open when printing */
+    div[class^="MuiCollapse"] {
+      height: auto !important;
+      visibility: visible !important;
+    }
+
+    .AccordionSummary svg {
+      display: none;
+    }
+
+    /* show urls in print layouts */
+    a::after{
+      content: " (" attr(href) ") ";
+    }
+
+    .AccordionDetails {
+      margin-bottom: 1rem;
+    }
+  }
+
+
