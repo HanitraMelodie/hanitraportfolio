@@ -18,7 +18,7 @@ function HomePage() {
           <p>I am Hanitra (based in Moledo, Portugal).</p>
           <p>
             I am a passionate full-stack developer with a keen focus on
-            front-end development (Typescript/React). I&apos;m on a journey to
+            front-end development (Typescript/React). I am on a journey to
             expand my experiences and skills in web development.
           </p>
         </section>
@@ -42,7 +42,7 @@ function HomePage() {
             E2E coverage improvement was one of the reasons we were able to
             deliver a better-quality backend codebase during the migration.
           </p>
-          <h4>Additional capacity from multiple syndicates feature</h4>
+          <h4>Additional capacity for multiple syndicates feature</h4>
 
           <p>
             While working on my team tasks, I decided to engage with two design
@@ -103,9 +103,12 @@ function HomePage() {
         <AccordionDetails className="AccordionDetails flow">
           <p>
             I am teaching HTML, CSS and Javascript to women and non-binary
-            people. 75 women and/or non-binary people sucessfully completed my
-            web development classes and received the KickStarter web development
-            Code First Girls certificates.
+            people.
+          </p>
+          <p>
+            75 women and/or non-binary people sucessfully completed my web
+            development classes and received the KickStarter web development
+            certificates.
           </p>
           <Tags items={["HTML", "CSS", "Javascript"]} />
         </AccordionDetails>
@@ -125,6 +128,10 @@ function HomePage() {
             people tracking their PrEP treatment ( a treatment method used to
             prevent HIV infection in individuals who are at high risk of
             acquiring the virus.)
+          </p>
+          <p>
+            I am reviewing and approving pull requests and I am changing the
+            codebase based on feedback from users.
           </p>
           <Tags items={["Typescript", "React Native"]} />
         </AccordionDetails>
@@ -155,10 +162,11 @@ function HomePage() {
             The final project to showcase what we learnt during the 3 months
             classes was a team project to create a React application. I found
             the idea of creating a Music Therapy application very exciting.
-            Indeed, we both were passionate of music and we wanted to create
-            something to help us and other to cope with stress in a fun and
-            entertaining way. We were only two in my team. I create the first
-            design of the website on figma{" "}
+            Indeed, my teammate and I were passionate of music and we wanted to
+            create something to help us and other to cope with stress in a fun
+            and entertaining way. We were only two in my team. It was intense to
+            complete this project. I create the first design of the website on
+            figma{" "}
             <a
               className="homelink"
               href="https://www.figma.com/file/0N1UvXxJ2v8ggADQtvVTKO/CFG-V1-Hanitra?type=design&node-id=0-1&mode=design&t=w8wPDBqW33a2F58q-0"
@@ -213,9 +221,9 @@ function HomePage() {
         <AccordionDetails className="AccordionDetails flow">
           <p>
             Thesis Analysis of aerodynamics loadings on the BMW Z3 model vehicle
-            using Computation Fluid Dynamics. I first build the BMW Z3 model
-            vehicle using CATIA and simulate the aerodynamics around the car
-            using Ansys and Autodesk CFD.
+            using Computation Fluid Dynamics. I first built the BMW Z3 model
+            vehicle using CATIA then did the simulation of the aerodynamics
+            around the car using Ansys and Autodesk CFD.
           </p>
           <Tags items={["CATIA", "Ansys Workbench", "Autodesk CFD"]} />
         </AccordionDetails>
