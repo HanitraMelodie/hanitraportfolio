@@ -35,46 +35,53 @@ function HomePage() {
         <AccordionDetails className="AccordionDetails flow">
           <h4>Ki backend service code migration</h4>
           <p>
-            During the backend service migration from C# to Kotlin, I was
-            responsible for monitoring and updating the E2E tests for Energy,
-            Lawyer Professional and Marine. By increasing the E2E tests
-            coverage, I discovered a bug on the Marine Hull business class. This
-            E2E coverage improvement was one of the reasons we were able to
-            deliver a better-quality backend codebase during the migration.
+            During the migration of the backend service from C# to Kotlin, I was
+            tasked with monitoring and updating the E2E tests for Energy, Lawyer
+            Professional, and Marine. By expanding the E2E test coverage, I
+            uncovered a bug in the Marine Hull business class. This enhancement
+            in E2E coverage played a significant role in delivering a
+            higher-quality backend codebase during the migration.
           </p>
           <h4>Additional capacity for multiple syndicates feature</h4>
 
           <p>
-            While working on my team tasks, I decided to engage with two design
-            sprints for the new feature (being able to quote against two
-            additional syndicates), it was a very early design sessions and
-            discussions. It was essential for me to be involved in these
-            discussions as I was aware of how this new feature will drastically
-            change Ki business and the insurance business. I am proud that two
-            of my designs ideas have been used on the final design.
+            While working on my team tasks, I actively participated in two
+            design sprints for the new feature, enabling quoting against two
+            additional syndicates. These were early design sessions and
+            discussions, and it was crucial for me to be involved as I
+            understood how this new feature would significantly impact KiWhile
+            working on my team tasks, I actively participated in two design
+            sprints for the new feature, enabling quoting against two additional
+            syndicates. These were early design sessions and discussions, and it
+            was crucial for me to be involved as I understood how this new
+            feature would significantly impact Ki&aposs business and the
+            insurance industry. I am proud that two of my design ideas were
+            incorporated into the final design.
           </p>
           <p>
-            During the preparation of the launch for the additional capacity
-            from multiple syndicates feature,I completed 10 front‐end tickets on
-            the operation platform to support this new feature.I in unit tests
-            coverage for the operation platform codebase and added as well unit
-            tests .
+            In preparation for the launch of the additional capacity from
+            multiple syndicates feature, I completed 10 frontend tickets on the
+            operation platform to support this new functionality. I also
+            increased unit test coverage for the operation platform codebase and
+            added new unit tests.
           </p>
           <p>
-            To support the new feature, I participated to the creation of an
-            additional partner platform : I set up Error logs tracker Sentry to
-            have daily error reports on production and demo environments on a Ki
-            partner platform. It improved the way we track error recurrences and
-            gave more visiblity to error reoccurence. I was responsible to
-            report and investigate errors reported on Sentry.I added as well
-            unit tests and E2E tests coverage on the partner platform.
+            To support the new feature, I contributed to the creation of an
+            additional partner platform. I implemented the Error Logs Tracker
+            Sentry to receive daily error reports on production and demo
+            environments for the Ki partner platform. This enhancement improved
+            our error tracking capabilities and provided greater visibility into
+            error recurrences. I was responsible for reporting and investigating
+            errors reported on Sentry. Additionally, I added unit tests and E2E
+            test coverage to the partner platform.
           </p>
           <p>
-            For a better user experience, I decided to create a ticket to make
-            the Ki partner platform more responsive. It was not on the JIRA
-            board but it was a small task and I know it would be a nice-to-have
-            feature for our platform, therefore I created the ticket and
-            implemented responsive design to the Ki partner platform.
+            Recognizing the importance of a better user experience, I initiated
+            the creation of a ticket to make the Ki partner platform more
+            responsive. Although it was not initially on the JIRA board, I
+            recognized its significance as a nice-to-have feature for our
+            platform, and thus, I created the ticket and implemented responsive
+            design for the Ki partner platform.
           </p>
           <Tags
             items={[
@@ -106,9 +113,9 @@ function HomePage() {
             people.
           </p>
           <p>
-            75 women and/or non-binary people sucessfully completed my web
-            development classes and received the KickStarter web development
-            certificates.
+            Seventy-five women and/or non-binary individuals successfully
+            completed my web development classes and received the KickStarter
+            web development certificates.
           </p>
           <Tags items={["HTML", "CSS", "Javascript"]} />
         </AccordionDetails>
@@ -124,14 +131,13 @@ function HomePage() {
         </AccordionSummary>
         <AccordionDetails className="AccordionDetails flow">
           <p>
-            I am helping developing a free React Native application to help
-            people tracking their PrEP treatment ( a treatment method used to
-            prevent HIV infection in individuals who are at high risk of
-            acquiring the virus.)
+            I am helping to develop a free React Native application to assist
+            people in tracking their PrEP treatment, a method used to prevent
+            HIV infection in individuals at high risk of acquiring the virus.
           </p>
           <p>
-            I am reviewing and approving pull requests and I am changing the
-            codebase based on feedback from users.
+            I am reviewing and approving pull requests, and I am making changes
+            to the codebase based on feedback from users.
           </p>
           <Tags items={["Typescript", "React Native"]} />
         </AccordionDetails>
@@ -148,38 +154,38 @@ function HomePage() {
           <h4>Assignments</h4>
           <p>
             I applied for the Full Stack development online course. It was an
-            intense 3 months of programming learning using with assignments
-            delivery each week available{" "}
+            intense three-month programming learning experience, with weekly
+            assignments to deliver. The assignments are available{" "}
             <a
               className="homelink"
               href="https://github.com/HanitraMelodie/homework"
             >
-              here
+              here.
             </a>
           </p>
           <h4>Final project: Music Therapy application</h4>
           <p>
-            The final project to showcase what we learnt during the 3 months
-            classes was a team project to create a React application. I found
-            the idea of creating a Music Therapy application very exciting.
-            Indeed, my teammate and I were passionate of music and we wanted to
-            create something to help us and other to cope with stress in a fun
-            and entertaining way. We were only two in my team. It was intense to
-            complete this project. I create the first design of the website on
-            figma{" "}
+            The final project, showcasing what we learned during the three
+            months of classes, was a team effort to create a React application.
+            I found the idea of developing a Music Therapy application very
+            exciting. Indeed, my teammate and I were passionate about music and
+            wanted to create something to help us and others cope with stress in
+            a fun and entertaining way. With only two members in our team, it
+            was intense to complete this project. I created the initial design
+            of the website using Figma{" "}
             <a
               className="homelink"
               href="https://www.figma.com/file/0N1UvXxJ2v8ggADQtvVTKO/CFG-V1-Hanitra?type=design&node-id=0-1&mode=design&t=w8wPDBqW33a2F58q-0"
             >
-              here
+              here.
             </a>
           </p>
           <p>
-            The music therapy application itself has three differnt user&apos;s
-            journey to give different options for the user. The application is
+            The music therapy application itself offers three different user
+            journeys, providing various options for the user. The application is
             hosted{" "}
             <a className="homelink" href="https://musictherapy.netlify.app">
-              here
+              here.
             </a>
           </p>
           <Tags items={["Javacript", "React", "CSS", "Jest"]} />
@@ -195,14 +201,14 @@ function HomePage() {
         </AccordionSummary>
         <AccordionDetails className="AccordionDetails flow">
           <p>
-            During my free time, I enrolled for several online course on
-            SheCodes platform. The final assignment was creating a weather
+            During my free time, I enrolled in several online courses on the
+            SheCodes platform. The final assignment involved creating a weather
             application using a weather API call. The application is hosted{" "}
             <a
               className="homelink"
               href="https://weatherapplicationv2.netlify.app"
             >
-              here
+              here.
             </a>
           </p>
           <Tags items={["Javacript", "React", "HTML", "CSS"]} />
@@ -220,10 +226,11 @@ function HomePage() {
         </AccordionSummary>
         <AccordionDetails className="AccordionDetails flow">
           <p>
-            Thesis Analysis of aerodynamics loadings on the BMW Z3 model vehicle
-            using Computation Fluid Dynamics. I first built the BMW Z3 model
-            vehicle using CATIA then did the simulation of the aerodynamics
-            around the car using Ansys and Autodesk CFD.
+            My thesis subject was the analysis of aerodynamic loadings on the
+            BMW Z3 model vehicle using Computational Fluid Dynamics. I first
+            built the BMW Z3 model vehicle using CATIA, then conducted
+            simulations of the aerodynamics around the car using Ansys and
+            Autodesk CFD.
           </p>
           <Tags items={["CATIA", "Ansys Workbench", "Autodesk CFD"]} />
         </AccordionDetails>
