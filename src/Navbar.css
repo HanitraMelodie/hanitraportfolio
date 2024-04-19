@@ -23,14 +23,9 @@ li:hover {
 a {
   text-decoration: none;
   border: none;
+  color: black;
 }
 
-a:visited {
-  color: white;
-  text-decoration: underline;
-  border: none;
-  border-style: solid;
-}
 #menuicon {
   width: 30px;
   position: flex;
@@ -41,7 +36,6 @@ a:visited {
     display: grid;
     grid-template-columns: 1fr;
     position: relative;
-    background-color: white;
   }
   li {
     margin: 0px 0px 0px 0px;
