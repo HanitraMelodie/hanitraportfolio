@@ -184,7 +184,7 @@ function HomePage() {
               here.
             </a>
           </p>
-          <Tags items={["Javacript", "React", "CSS", "Jest"]} />
+          <Tags items={["Javacript", "React", "CSS", "Jest", "UI design"]} />
         </AccordionDetails>
       </Accordion>
 
