@@ -49,15 +49,11 @@ function HomePage() {
             design sprints for the new feature, enabling quoting against two
             additional syndicates. These were early design sessions and
             discussions, and it was crucial for me to be involved as I
-            understood how this new feature would significantly impact KiWhile
-            working on my team tasks, I actively participated in two design
-            sprints for the new feature, enabling quoting against two additional
-            syndicates. These were early design sessions and discussions, and it
-            was crucial for me to be involved as I understood how this new
-            feature would significantly impact Ki&aposs business and the
-            insurance industry. I am proud that two of my design ideas were
-            incorporated into the final design.
+            understood how this new feature would significantly impact Ki&apos;s
+            business and the insurance industry. I am proud that two of my
+            design ideas were incorporated into the final design.
           </p>
+
           <p>
             In preparation for the launch of the additional capacity from
             multiple syndicates feature, I completed 10 frontend tickets on the
